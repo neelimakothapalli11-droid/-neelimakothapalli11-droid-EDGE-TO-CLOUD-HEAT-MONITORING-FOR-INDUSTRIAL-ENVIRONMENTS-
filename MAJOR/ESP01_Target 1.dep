@@ -1,0 +1,38 @@
+Dependencies for Project 'ESP01', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x6A240AB7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (uart0.h)(0x645C7E5C)
+I (delay.h)(0x63DC8D52)
+I (types.h)(0x63CDDB66)
+I (lcd.h)(0x632E95F2)
+I (esp01.h)(0x6A182996)
+I (rtc.h)(0x6A23F9AD)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+F (.\uart0.c)(0x645C8168)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\uart0.o --omf_browse .\uart0.crf --depend .\uart0.d)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (uart0.h)(0x645C7E5C)
+F (.\uart0.h)(0x645C7E5C)()
+F (.\delay.c)(0x645C80F8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\esp01.c)(0x6A23FB3B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\esp01.o --omf_browse .\esp01.crf --depend .\esp01.d)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (uart0.h)(0x645C7E5C)
+I (delay.h)(0x63DC8D52)
+I (types.h)(0x63CDDB66)
+I (lcd.h)(0x632E95F2)
+F (.\ADC.C)(0x6A250EED)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (adc_defines.h)(0x6A16D84F)
+I (types.h)(0x63CDDB66)
+I (defines.h)(0x6A250E58)
+I (delay.h)(0x63DC8D52)
+F (.\lcd.c)(0x6A1E4D23)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x63DC8D52)
+I (types.h)(0x63CDDB66)
+I (lcd.h)(0x632E95F2)
+I (defines.h)(0x6A250E58)
+F (.\rtc.c)(0x6A250ECD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Users\ADMIN\OneDrive\Desktop\ARM\RV31\INC-I C:\Users\ADMIN\OneDrive\Desktop\ARM\CMSIS\Include-I C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Users\ADMIN\OneDrive\Desktop\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (rtc_defines.h)(0x69F96C03)
+I (types.h)(0x63CDDB66)
+I (delay.h)(0x63DC8D52)
